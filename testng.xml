@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="Test">
+        <parameter name="platformName" value ="iOS"/>
+<!--        parameter name="platformName" value ="window"/>-->
+<!--        <parameter name="browserType" value ="safari"/>-->
+        <parameter name="browserType" value ="chrome"/>
+        <classes>
+            <class name="commonTests.BaseTest"/>
+            <class name="TestRun"/>
+        </classes>
+    </test>
+</suite>
